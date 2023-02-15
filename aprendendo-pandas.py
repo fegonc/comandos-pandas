@@ -66,7 +66,7 @@ vendas_df['Comissão'] = vendas_df['Comissão'].fillna(vendas_df['Comissão'].me
 
 
 #PREENCHER COM O ULTIMO VALOR
-# vendas_df = vendas_df.ffill()
+vendas_df = vendas_df.ffill()
 
 
 #VALUE COUNTS
